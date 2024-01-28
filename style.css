@@ -32,6 +32,10 @@ svg:hover{
     opacity: 0.5;  
 }
 
+.active {
+    opacity: 1;  
+}
+
 
 
 .hover:hover{
@@ -41,4 +45,13 @@ svg:hover{
 .blackBorder{
     border: 5px solid black;
     
+}
+
+._shadow1{
+    
+    box-shadow: 0px 0px 20px 10px rgb(242, 189, 30);
+}
+
+.colorS{
+    color:#FCD210 ;
 }

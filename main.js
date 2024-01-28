@@ -28,7 +28,7 @@ const { createApp } = Vue
             Immagine: "./img/lisa.jpg"
           },
           {
-            Nome: "Margaret Evelyn Lenny",
+            Nome: "Margaret Evelyn",
             Cognome: "Simpson",
             Immagine: "./img/maggie.jpg"
           }
@@ -36,7 +36,8 @@ const { createApp } = Vue
       }
     },
     created() {
-      this.interval()
+      this.interval(),
+      console.log(this.homer)
     },
     methods: {
       imageUp(){
