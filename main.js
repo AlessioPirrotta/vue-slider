@@ -67,4 +67,3 @@ const { createApp } = Vue
   }).mount('#app')
 
 
-// prova a mettere l onclick(index) e current(index)
